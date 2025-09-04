@@ -1,17 +1,40 @@
-<<<<<<< HEAD
-# React + Vite
+# 🍴 Recipe Finder App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple recipe search application built with **React (Vite)**, **TailwindCSS**, and **Bootstrap**.  
+This project was created for the Aganitha Cognitive Solutions task.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Search recipes by ingredient
+- View recipe details (meal ID, image, category, area, instructions)
+- YouTube video link for recipe tutorials
+- Pagination with items-per-page selector
+- Responsive layout using Bootstrap + Tailwind
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# ReceipeFinder_Aganitha-Cognitive-Solutions-Task
-A simple recipe search application built with React (Vite), TailwindCSS, and Bootstrap.
->>>>>>> a7b304635c85c1ceca34663c0a2ef3915c654d86
+## Tech Stack
+- React + Vite
+- Tailwind CSS
+- Bootstrap 5
+- React-Bootstrap
+- SweetAlert2
+- TheMealDB API ([API Docs](https://www.themealdb.com/api.php))
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/recipe-finder.git
+cd recipe-finder
+
+Install dependencies:
+npm install
+
+Run the development server:
+npm run dev
+
